@@ -5,14 +5,14 @@ Project to generate QR codes and export them as PDF files.
 ## Requirements
 
 - Python 3.9 or higher
-- Git
 
 ## 1. Activate the virtual environment
 
-In Windows PowerShell:
+In Windows PowerShell, create the environment first and then activate it:
 
 ```powershell
 cd "C:\path\to\project\QR_generator"
+python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
