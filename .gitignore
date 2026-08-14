@@ -15,6 +15,7 @@ __pycache__/
 
 # CSV input data
 folder_1/*.csv
+!folder_1/.gitkeep
 
 # Generated PDFs
 *.pdf
