@@ -33,8 +33,13 @@ python -m pip install -r requirements.txt
 ```
 
 ## 3. Usage flow
+> Before to start: Add the CSV files to the `folder_1` folder
 
-1. Add the CSV files to the `folder_1` folder
+
+1. Initialize 
+   ```
+   Scripts\Activate.ps1
+   ```
 2. Run the program:
    ```powershell
    python qrgenerate_PDF.py
