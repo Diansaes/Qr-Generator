@@ -3,6 +3,7 @@
 .venv/
 venv/
 env/
+pyvenv.cfg
 
 # Python cache
 __pycache__/
@@ -25,6 +26,9 @@ folder_1/*.csv
 output/
 outputs/
 generated/
+PDF/**.zip
+Lib/
+Scripts/
 
 # OS files
 .DS_Store
