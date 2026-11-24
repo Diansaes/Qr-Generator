@@ -38,7 +38,7 @@ def insertar_guiones(clave):
 def generar_codigos_qr(csv_file_path):
     # Get the base file name (without extension) to use as the folder name
     output_dir_name = os.path.splitext(os.path.basename(csv_file_path))[0]
-    output_dir = os.path.join(output_dir_name)
+    output_dir = os.path.join("PDF", output_dir_name)
     os.makedirs(output_dir, exist_ok=True)  # Create the folder if it does not exist
 
     # Load the CSV file
